@@ -64,7 +64,7 @@ class NumberGuessingGame {
             System.out.println("\nAttempt: " + chance);
             r = guessing(x, r, chance);
             if (r == 1) {
-                System.out.println("Your Score is " + score);
+                System.out.println("Your Score is: " + score);
                 break;
             }
             score = score - 10;
